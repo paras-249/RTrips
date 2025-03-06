@@ -3,15 +3,16 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 import Hero from "../components/hero";
 import Trip from "../components/trip";
+import mountain from "../assets/mountain.jpg";
 function Home () {
     return (
         <>
         <Navbar/>
          <Hero
          cName="hero"
-         heroImg="https://www.careforthefamily.org.uk/wp-content/uploads/2022/04/journey-changer-1.jpg"
-         title="Your Journey Your Story"
-         text="Choose Your Favourite Destination"
+         heroImg={mountain}
+         title="Welcome   to   देवभूमी"
+         text="RAMTEK"
          buttonText="travel Plan"
          url="/"
          btnClass="show"

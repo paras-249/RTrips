@@ -9,10 +9,10 @@
     top: 20px;
     left: 50%;
     transform: translate(-50%);
-    height: 80px;
+    height: 60px;
     border-radius: 13px;
     z-index: 9999;
-    background-color: #fff;
+    backdrop-filter: blur(10px);
     opacity: 0.75;
     transition: 0.2s all ease;
 }
@@ -22,7 +22,7 @@
 }
 
 .navbar-logo {
-    color: #222;
+    color: #f37209;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -45,11 +45,11 @@
 }
 
 .nav-links i {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .nav-links:hover {
-    background-color: #01959a;
+    background-color: #e77e0d;
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;

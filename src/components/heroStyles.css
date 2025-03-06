@@ -32,18 +32,22 @@ img{
 }
 
 .hero-text h1 {
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 5rem;
+    font-weight: 600;
     background: white;
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+
 .hero-text p {
-    font-size: 1.3rem;
-    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(247, 142, 13);
     padding: 0.5rem 0.2rem 0;
+    font-size: xx-large;
+    
 }
 
 .hero-text .show {
@@ -78,10 +82,12 @@ img{
        
         padding: .6rem 1.1rem;
         border-radius: 6px;
-        font-size: 1rem;
-      
-      
-        
+        font-size: 1rem;    
     }
+    .hero-text .show:hover {
+        background: #121414;
+        color: #fff;
+    }
+
     
 }

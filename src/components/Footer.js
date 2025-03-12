@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="footer">
             <div className="top"> 
             <div>
-                <h1>Trippy</h1>
-                <p>Choose your favourite destination</p>
+                <h1>Tripsy</h1>
+                <p>Choose your favourite destinations </p>
             </div>
             <div>
                 <a href="/">
@@ -16,7 +16,7 @@ const Footer = () => {
                     <i className="fa-brands fa-instagram-square"></i>
                 </a>
                 <a href="/">
-                    <i className="fa-brands fa-behance-square"></i>
+                    <i className="fa-brands fa-github-square"></i>
                 </a>
                 <a href="/">
                     <i className="fa-brands fa-twitter-square"></i>
@@ -29,14 +29,13 @@ const Footer = () => {
                 <a href="/">Changelog</a>
                 <a href="/">Status</a>
                 <a href="/">License</a>
-                <a href="/">All Versions</a>
+
             </div>
 
             <div>
                 <h4>Community</h4>
                 <a href="/">Github</a>
                 <a href="/">Issues</a>
-                <a href="/">Project</a>
                 <a href="/">Twitter</a>
             </div>
 

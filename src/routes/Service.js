@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import travelImg from "../assets/service.jpg";
 import Footer from "../components/Footer";
 import Hotel from "../components/hotel";
+import Food from "../components/Food";
 
 function Service () {
     return (
@@ -15,6 +16,7 @@ function Service () {
          btnClass="hide"
          />
          <Hotel/>
+         <Food/>
          <Footer/>
         </>
     )

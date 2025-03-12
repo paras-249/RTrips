@@ -5,11 +5,14 @@ import "./DestinationStyles.css"
 
 class DestinationData extends Component {
     render() {
-        return(
+        return(<>
             <div className={this.props.className}>
                 <div className="des-text">
                     <h2>{this.props.heading}</h2>
                     <p> {this.props.text}</p>
+                    <div className='btnm'>
+                <button className='btn'>  <a href={this.props.link}> LOCATION</a>  </button>
+              </div>
                     </div>
 
                     <div className="image">
@@ -17,6 +20,7 @@ class DestinationData extends Component {
                         <img alt="img" src={this.props.img2}/>
                     </div>
                 </div>
+                </>
         )
     }
 }

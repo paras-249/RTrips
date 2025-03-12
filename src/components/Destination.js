@@ -3,9 +3,13 @@ import gadmandir2 from "../assets/gadmandir 8.jpg";
 import jainmandir2 from "../assets/jaintemple 2.jpg";
 import jainmandir1 from "../assets/jaintemple 3.jpg";
 import khindsi1 from "../assets/khindsilake 3.jpg";
+import waterpark1 from "../assets/LighthouseWaterpark 3.jpg";
+import waterpark2 from "../assets/LighthouseWaterpark 4.jpg";
 import khindsi2 from "../assets/khindsi2.webp";
+import ambala1 from "../assets/ambalaalake1.jpeg"
 import DestinationData from "./DestinationData"
 import "./DestinationStyles.css"
+
 
 const Destination = () => {
     return (
@@ -40,30 +44,27 @@ img1 = {khindsi1}
 img2 = {khindsi2}
             />
 
+           
+
             <DestinationData
 className="first-des-reverse"
 heading = "Ambala Lake, Ramtek"
 text = "Located in the town of Ramtek, Maharashtra, Ambala Lake is a beautiful and serene lake that is a popular spot for nature lovers and outdoor enthusiasts. The lake is surrounded by lush green forests and is a perfect place to relax and unwind amidst nature. Ambala Lake was built during the 18th century by the Nagardhan dynasty, who ruled the region at that time. The lake was built to provide water to the local population and was an essential source of water during the dry seasons.Over the years, the lake has become a popular tourist attraction and is a must-visit for anyone looking for a peaceful and serene spot to relax and unwind. Ambala Lake is a picturesque spot that is surrounded by lush green forests and hills. The lake is a natural habitat for several species of birds and is a popular spot for birdwatching. Visitors can enjoy the beautiful natural beauty of the area and go for a picnic.The lake is also a popular spot for boating and fishing.  "
-img1 = {gadmandir1}
+img1 = {ambala1}
 img2 = {gadmandir2}
             />
+
+           
             <DestinationData
             className="first-des"   
-heading = "Ramtek Fort"
-text = "Ramtek Fort is a fort in Maharashtra, India. It is a protected monument. The fort is located 57 km from Nagpur, Maharashtra. The fort is located on a hill in the Satpura Range. The fort is located at an altitude of 345 meters above sea level"
-img1 = {gadmandir1}
-img2 = {gadmandir2}
+heading = "Lighthouse Waterpark, Ramtek"
+text = "Lighthouse Waterpark Spread over more than 10 acres -Stay, splash , play and have a fantastic getaway with your dear ones on high energy slides , thrill pool, family pool, water play station, lazy pool, and rainbow dance for a whole new ‘Aqua Venture’ filled with thrill and joy.  The park is open all days of the week and is a perfect place to spend a fun-filled day with your family and friends. The park is equipped with all modern amenities and is a perfect place to relax and unwind. This  is a perfect place to beat the heat and enjoy a day of fun and frolic. The park is a perfect place to spend a day with your family and friends and create memories that will last a lifetime. It is a perfect place to enjoy a day of fun and frolic and create memories that will last a lifetime."
+img1 = {waterpark1}
+img2 = {waterpark2}
+link=''
             />
-            <DestinationData
-className="first-des-reverse"
-heading = "Ramtek Fort"
-text = "Ramtek Fort is a fort in Maharashtra, India. It is a protected monument. The fort is located 57 km from Nagpur, Maharashtra. The fort is located on a hill in the Satpura Range. The fort is located at an altitude of 345 meters above sea level"
-img1 = {gadmandir1} 
-img2 = {gadmandir2}
-            />
-
-
-
+           
+         
             
         </div>
 

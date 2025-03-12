@@ -102,8 +102,9 @@
     .btn{
        width: 150px;
        height: 40px;
+       margin-top: 5px;
        text-decoration: none;
-       margin-left: 20%;
+       margin-left: 25%;
        background-color: transparent;
        padding: 5px;
        background-color: rgb(181, 254, 254);

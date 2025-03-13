@@ -6,7 +6,8 @@ import khindsi1 from "../assets/khindsilake 3.jpg";
 import waterpark1 from "../assets/LighthouseWaterpark 3.jpg";
 import waterpark2 from "../assets/LighthouseWaterpark 4.jpg";
 import khindsi2 from "../assets/khindsi2.webp";
-import ambala1 from "../assets/ambalaalake1.jpeg"
+import ambala1 from "../assets/ambalaalake1.jpeg";
+import ambala2 from "../assets/ambalaalake1.jpeg"
 import DestinationData from "./DestinationData"
 import "./DestinationStyles.css"
 
@@ -51,7 +52,7 @@ className="first-des-reverse"
 heading = "Ambala Lake, Ramtek"
 text = "Located in the town of Ramtek, Maharashtra, Ambala Lake is a beautiful and serene lake that is a popular spot for nature lovers and outdoor enthusiasts. The lake is surrounded by lush green forests and is a perfect place to relax and unwind amidst nature. Ambala Lake was built during the 18th century by the Nagardhan dynasty, who ruled the region at that time. The lake was built to provide water to the local population and was an essential source of water during the dry seasons.Over the years, the lake has become a popular tourist attraction and is a must-visit for anyone looking for a peaceful and serene spot to relax and unwind. Ambala Lake is a picturesque spot that is surrounded by lush green forests and hills. The lake is a natural habitat for several species of birds and is a popular spot for birdwatching. Visitors can enjoy the beautiful natural beauty of the area and go for a picnic.The lake is also a popular spot for boating and fishing.  "
 img1 = {ambala1}
-img2 = {gadmandir2}
+img2 = {ambala2}
             />
 
            

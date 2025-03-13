@@ -11,8 +11,8 @@ import tathastu from "../assets/tathashtu.jpg";
 function Hotel() {
     return (
         <div className="hotel">
-            <h1>Hotels</h1>
-            <p>You can discover unique destinations For Stay</p>
+            <h1>🏢 🏠 Hotels 🛏️ 🏠</h1>
+            <p>A Home Away from Home: Ramtek's Cozy Hotels that Blend Comfort with Local Charm</p>
             <div className="hotelcard">
             <HotelData
                 imgs = {ramgiri}

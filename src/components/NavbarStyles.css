@@ -17,12 +17,12 @@
     transition: 0.2s all ease;
 }
 .NavbarItems:hover {
-    opacity: 1;
+    opacity: 0.7;
     width: 96%;
 }
 
 .navbar-logo {
-    color: #f37209;
+    color: #ff7300;
     font-size: 2rem;
     cursor: pointer;
 }

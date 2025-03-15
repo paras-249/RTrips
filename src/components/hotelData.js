@@ -17,7 +17,7 @@ function HotelData(props) {
             <li>{props.li5}</li>
             <p>{props.price}</p>
             <b> Contact:- {props.contact }</b>
-            <button className='btn'>  <a href={props.loc}> Location 🌍</a>  </button>
+            <button className='btn'>  <a href={props.loc } target="_blank "> Location 🌍</a>  </button>
         </div>
     )
 }

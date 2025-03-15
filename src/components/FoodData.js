@@ -12,7 +12,7 @@ function FoodData(props) {
             <li> {props.f2}</li>
             <li> {props.f3}</li> 
             <p>{props.time}</p>
-         <button className='btn'>  <a href={props.loc}> Visit 🌍</a>  </button>
+         <button className='btn'>  <a href={props.loc} target="_blank "> Visit 🌍</a>  </button>
          
         </div>
     )

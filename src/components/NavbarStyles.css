@@ -15,6 +15,8 @@
     backdrop-filter: blur(10px);
     opacity: 0.75;
     transition: 0.2s all ease;
+    text-decoration: none;
+    text-decoration: none;
 }
 .NavbarItems:hover {
     opacity: 0.7;
@@ -33,11 +35,12 @@
     grid-gap: 10px;
     list-style: none;
     align-items: center;
+    text-decoration: none;
 }
 
 .nav-links {
     text-decoration: none;
-    color: #222;
+    color: #252222; /* Change this to the desired color */
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.7rem 1rem;
@@ -68,6 +71,8 @@ button {
     border: none;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    background-color: #ff7300; /* Add background color to button */
+    color: #fff; /* Add text color to button */
 }
 
 button:hover {
@@ -78,6 +83,7 @@ button:hover {
 .menu-icons {
     display: none;
 }
+
 @media screen and (max-width: 850px) {
     .NavbarItems {
         z-index: 90;
@@ -99,7 +105,6 @@ button:hover {
         margin: 0;
         transition: 0.3s ease-in-out;
         border-radius: 13px;
-        
     }
 
     .nav-menu.active {
@@ -107,7 +112,6 @@ button:hover {
         opacity: 1;
         z-index: -1;
         transition: 0.3s ease-in-out;
-
     }
 
     .nav-links {
@@ -115,6 +119,7 @@ button:hover {
         width: 100%;
         font-size: 1.2rem;
         padding: 2rem 0;
+        text-decoration: none;
     }
 
     .nav-links:hover {
@@ -124,7 +129,6 @@ button:hover {
 
     button {
         display: none;
-
     }
 
     .nav-links-mobile {
@@ -140,7 +144,6 @@ button:hover {
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 2px;
-
     }
 
     .menu-icons {
@@ -150,6 +153,12 @@ button:hover {
 
     .menu-icons i {
         font-size: 1.2rem;
-        color: #222;
+        color: #0d0d0d;
     }
+}
+
+.singup{
+    text-decoration: none;
+    color: white;
+    font-size: large;
 }

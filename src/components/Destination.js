@@ -29,7 +29,7 @@ img2 = {gadmandir2}
 
             <DestinationData
 className="first-des-reverse"
-heading = "Jain Teample , Ramtek"
+heading = "Jain Temple , Ramtek"
 text = "Ramtek is also known for its ancient Jain temple with various ancient statues of Jain Tirthankara. The main idol of Shantinatha, the sixteenth Tirthankara has a legend associated with it. It became more popular when one of the leading Digambar Jain Acharyas, Acharya Vidyasagar visited and stayed with his sangh in Ramtek in 1993, 94, 2008, 2013 and 2017 for the four months of chaturmas during the rainy season. With his inspiration, a big Jain temple has been constructed. The place was ruled by Gond rulers before being captured by the Bhonsale rulers of Nagpur in the eighteenth century and the Jain temple was built by the Gond Rulers. The temple is built in the Hemadpanthi style of architecture and has a huge Shikhar. The temple has a huge idol of Lord Shantinath in the Padmasana posture. The temple has a huge courtyard and a big hall with many small temples inside."
 link="https://maps.app.goo.gl/Lz5bT8mTjkNgq2oD9"
 img1 = {jainmandir1}

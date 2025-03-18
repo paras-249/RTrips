@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
 
 
 class Navbar extends Component {
@@ -9,9 +10,11 @@ class Navbar extends Component {
     handleClick = () => {
         this.setState({clicked: !this.state.clicked})
     }
+    notifyerror = () => toast.error('We are working on it!');
     render() {
         return(
             <nav className="NavbarItems">
+                <Toaster  position="top-center" reverseOrder={false}/>
                 <h1 className="navbar-logo">RTrips</h1>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -27,7 +30,7 @@ class Navbar extends Component {
                     </li>
                         )
                     })}
-                    <button  > <a href=" /" className="singup" >Sign Up</a> </button>
+                    <button onClick={this.notifyerror}  > <a href=" /" className="singup" >Sign Up</a> </button>
                 </ul>
             </nav>
         )

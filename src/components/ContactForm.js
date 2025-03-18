@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import "./ContactFormStyles.css";
+import toast, { Toaster } from "react-hot-toast";
+
+
 
 function ContactForm() {
+  const notifySuccess = () => toast.success('Message sent successfully!');
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -19,7 +23,6 @@ function ContactForm() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert("Message Delivered with a Smile! We've received your message and will get back to you soon! 🙏");
         setFormData({
             name: "",
             email: "",
@@ -30,6 +33,7 @@ function ContactForm() {
 
     return (
         <div className="form-container">
+            <Toaster  position="top-center" reverseOrder={false}/>
             <h1>Send a message to us!</h1>
             <form onSubmit={handleSubmit}>
                 <input
@@ -62,7 +66,7 @@ function ContactForm() {
                     onChange={handleChange}
                     required
                 ></textarea>
-                <button type="submit" className="msg">Send Message</button>
+                <button type="submit" className="msg" onClick={notifySuccess}>Send Message</button>
             </form>
         </div>
     );

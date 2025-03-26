@@ -30,7 +30,6 @@ class Navbar extends Component {
                     </li>
                         )
                     })}
-                    <button onClick={this.notifyerror}  > <a href=" /" className="singup" >Sign Up</a> </button>
                 </ul>
             </nav>
         )

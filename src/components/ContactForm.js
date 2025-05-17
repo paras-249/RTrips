@@ -35,7 +35,7 @@ function ContactForm() {
         <div className="form-container">
             <Toaster  position="top-center" reverseOrder={false}/>
             <h1>Send a message to us!</h1>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} action="">
                 <input
                     name="name"
                     placeholder="Name"

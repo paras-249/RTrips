@@ -11,11 +11,9 @@ function Home () {
          <Hero
          cName="hero"
          heroImg={mountain}
-         title="Welcome   to   देवभूमी"
+         title="Welcome   To   देवभूमी"
          text="RAMTEK"
-         buttonText="travel Plan"
          url="/"
-         btnClass="show"
          />
          <Destination/>
 

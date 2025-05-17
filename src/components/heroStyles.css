@@ -62,9 +62,10 @@ img{
 .hero-text p {
     font-size: 40px;
     font-weight: 600;
-    color: rgb(247, 142, 13);
+    color: rgb(249, 138, 3);
     padding: 0.5rem 0.2rem 0;
-    font-size: xx-large;
+    font-size: 70px;
+    text-shadow: #2e3232 0px 0px 2px, #101111 0px 0px 1px;
     
 }
 
